@@ -1,9 +1,9 @@
-![alt text](<callstack.png>)
 # fetch priority
 - when a fetch request is made the browser checks for the priority of the request if its high priority it will be added to the fetch queue otherwise it will be added to the normal queue
 - once the fetch queue is empty the normal queue tasks are executed
-![alt text](<fetchworking.png>)
+![alt text](<callstack.png>)
 ## fetch internal working
+![alt text](<fetchworking.png>)
 - the window object has a fetch method which is used to make network requests
 - when the fetch method is called it creates a new Request object with the provided URL and options
 -the fulfill request method is called to process the request and return a Response object
