@@ -25,7 +25,9 @@
             console.log(this.server);
         }
     }
-
+//bind is used to create a new function that, when called, has its this keyword set to the provided value.
+//  In this example, we use bind to ensure that the handleClick method has the correct this context when it is called as an event handler for the button click event.
+//  By binding this to the instance of the React class, we can access the server property correctly when the button is clicked.
     const app = new React()
 </script>
 </html>
